@@ -1,0 +1,8 @@
+num_nodes: 100
+feature_dim: 16
+anomaly_ratio: 0.1
+hidden_channels: 32
+learning_rate: 0.01
+num_epochs: 100
+device: "cuda"
+output_dir: "outputs"
