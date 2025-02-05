@@ -1,0 +1,6 @@
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 10
+normal_class: 0  # Use digit 0 as the normal class for training
+device: "cuda"
+output_dir: "outputs"
