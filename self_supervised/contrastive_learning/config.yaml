@@ -1,0 +1,19 @@
+# Configuration for Contrastive Learning Demo
+
+# Training hyperparameters
+batch_size: 64
+learning_rate: 0.0003
+num_epochs: 20
+temperature: 0.07
+feature_dim: 128
+
+# Data augmentation parameters
+rotation_range: 15
+translation_range: 0.1
+scale_range: (0.9, 1.1)
+
+# Device settings
+device: "cuda"
+
+# Output directory
+output_dir: "outputs"

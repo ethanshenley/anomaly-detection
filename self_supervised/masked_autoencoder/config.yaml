@@ -1,0 +1,12 @@
+# Configuration for Masked Autoencoder Demo
+
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 10
+mask_ratio: 0.5
+
+# Device setting: "cuda" or "cpu"
+device: "cuda"
+
+# Output directory for plots and results
+output_dir: "outputs"
