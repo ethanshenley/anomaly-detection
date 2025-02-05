@@ -1,0 +1,12 @@
+# Configuration for Denoising Autoencoder Demo
+
+batch_size: 64
+learning_rate: 0.0003
+num_epochs: 20
+noise_factor: 0.3
+
+# Device setting: "cuda" or "cpu"
+device: "cuda"
+
+# Output directory for plots and results
+output_dir: "outputs"
