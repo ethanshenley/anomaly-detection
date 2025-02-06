@@ -1,0 +1,24 @@
+# Configuration for Hybrid Forecasting Demo
+
+batch_size: 64
+learning_rate: 0.001
+num_epochs: 30
+print_every: 5
+seq_len: 50
+n_train: 1000
+n_test: 600
+noise_std: 0.1
+anomaly_interval: 100
+anomaly_magnitude: 3.0
+
+# LSTM branch parameters
+lstm_hidden: 64
+lstm_layers: 1
+
+# TCN branch parameters
+tcn_channels: [32, 32]
+kernel_size: 3
+dropout: 0.2
+
+device: "cuda"
+output_dir: "outputs"
