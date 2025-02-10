@@ -1,0 +1,22 @@
+# Configuration for Hybrid Model Anomaly Detection Demo
+
+batch_size: 64
+learning_rate: 0.001
+num_epochs: 30
+print_every: 5
+seq_len: 50
+n_train: 1000
+n_test: 600
+noise_std: 0.1
+anomaly_interval: 100
+anomaly_magnitude: 3.0
+
+# Hybrid model parameters
+hidden_size: 64
+num_layers: 1
+
+# Weight for ensemble of errors in hybrid model (beta for reconstruction error)
+beta: 0.5
+
+device: "cuda"      # Use "cpu" if GPU not available
+output_dir: "outputs"
