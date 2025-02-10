@@ -1,0 +1,15 @@
+# Configuration for Vision Transformer Autoencoder Demo
+
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 10
+print_every: 1
+
+img_size: 28        # MNIST image size (28x28)
+patch_size: 7       # e.g., 7x7 patches -> 4 patches per side (16 patches total)
+embed_dim: 128
+num_layers: 4
+num_heads: 4
+
+device: "cuda"      # Set to "cpu" if no GPU available
+output_dir: "outputs"

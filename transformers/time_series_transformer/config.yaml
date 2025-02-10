@@ -1,0 +1,20 @@
+# Configuration for Time Series Transformer Demo
+
+batch_size: 64
+learning_rate: 0.001
+num_epochs: 30
+print_every: 5
+seq_len: 50
+n_train: 1000       # Number of points for training series
+n_test: 600         # Number of points for test series
+noise_std: 0.1
+anomaly_interval: 100  # Inject an anomaly every 100 points in test series starting from mid-test
+anomaly_magnitude: 3.0
+
+# Transformer parameters
+model_dim: 64
+num_heads: 4
+num_layers: 2
+
+device: "cuda"       # Set to "cpu" if no GPU available
+output_dir: "outputs"
