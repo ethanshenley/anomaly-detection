@@ -1,4 +1,9 @@
-torch
-torchvision
-numpy
-matplotlib
+torch>=2.0.0
+torchvision>=0.15.0
+torch-geometric>=2.3.0  # For graph_autoencoder
+numpy>=1.24.0
+matplotlib>=3.7.0
+PyYAML>=6.0  # For config files
+scikit-learn>=1.2.0  # For metrics and data processing
+tqdm>=4.65.0  # For progress bars
+pillow>=9.5.0  # Required by torchvision
