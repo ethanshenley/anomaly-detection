@@ -1,0 +1,10 @@
+# Configuration for Memory Augmented Autoencoder Demo
+
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 30
+latent_dim: 64
+memory_size: 50
+lambda_memory: 0.1    # Weight for the latent consistency loss
+device: "cuda"
+output_dir: "outputs"

@@ -1,0 +1,8 @@
+# Configuration for Energy-Based Model Demo
+
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 30
+margin: 1.0        # Desired margin between negative and normal sample energies
+device: "cuda"     # Set to "cpu" if CUDA is not available
+output_dir: "outputs"
